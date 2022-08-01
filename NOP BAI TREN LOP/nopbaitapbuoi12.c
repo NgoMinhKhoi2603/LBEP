@@ -25,13 +25,13 @@ int main() {
 			break;
 		}
 	}
-	
+	max1=max;
 	for(i=0;i<n;i++){
 		if(max1<a[i]&&a[i]!=max){
 			max1=a[i];
 		}
 	}
-	if(max1==-1)
+	if(max1==max)
 	printf("Khong co so lon thu 2");
 	else
 	printf("So gan lon nhat la: %d", max1);
