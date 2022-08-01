@@ -16,15 +16,16 @@ int main() {
 			max=a[i];
 		}
 	}
-	for(i=0;i<n;i++){
-		if(a[i]==max)
-		a[i]=0;
-	}
 	
 	printf("So lon nhat la: %d\n", max);
-	max1=a[0];
+	
+	for(i=0;i<n;i++){
+		if(a[i]!=max)
+		max1=a[i];
+	}
+	
 	for(i=1;i<n;i++){
-		if(max1<a[i]){
+		if(max1<a[i]&&a[i]!=max){
 			max1=a[i];
 		}
 	}
