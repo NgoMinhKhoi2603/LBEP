@@ -20,8 +20,10 @@ int main() {
 	printf("So lon nhat la: %d\n", max);
 	
 	for(i=0;i<n;i++){
-		if(a[i]!=max)
-		max1=a[i];
+		if(a[i]!=max){
+			max1=a[i];
+			break;
+		}
 	}
 	
 	for(i=0;i<n;i++){
@@ -29,5 +31,8 @@ int main() {
 			max1=a[i];
 		}
 	}
+	if(max1==-1)
+	printf("Khong co so lon thu 2");
+	else
 	printf("So gan lon nhat la: %d", max1);
 }
