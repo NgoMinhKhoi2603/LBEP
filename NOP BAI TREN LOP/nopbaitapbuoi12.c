@@ -24,7 +24,7 @@ int main() {
 		max1=a[i];
 	}
 	
-	for(i=1;i<n;i++){
+	for(i=0;i<n;i++){
 		if(max1<a[i]&&a[i]!=max){
 			max1=a[i];
 		}
