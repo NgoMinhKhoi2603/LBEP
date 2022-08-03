@@ -23,7 +23,7 @@ int main() {
 			so1=a[i];
 	    }
 	}
-	printf("Gia tri xa x nhat trong mang la: %d", luu);
-	if(so1!=a[0])
+	printf("Gia tri xa x nhat trong mang la: %d", so);
+	if(so1!=a[0]&&abs(x-so1)==luu)
 	printf(" va %d", so1);
 }

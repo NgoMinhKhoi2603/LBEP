@@ -24,6 +24,6 @@ int main() {
 		}
 	}
 	printf("Gia tri gan x nhat trong mang la: %d", so);
-	if(so1!=a[0])
+	if(so1!=a[0]&&abs(x-so1)==luu)
 	printf(" va %d", so1);
 }
