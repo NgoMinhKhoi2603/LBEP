@@ -27,5 +27,5 @@ int main() {
 	else
 	doan=min;
 	
-	printf("Doan [%d,%d] chua tat ca gia tri cua mang", doan, doan);
+	printf("Doan [-%d,%d] chua tat ca gia tri cua mang", doan, doan);
 }
