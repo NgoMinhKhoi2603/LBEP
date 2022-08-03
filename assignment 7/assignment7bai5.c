@@ -14,6 +14,7 @@ int main() {
 			for(;a[i]==a[k];){
 				printf("Nhap lai a[%d]: ",i);
 				scanf("%d", &a[i]);
+				k=0; 
 			}
 		}
 	}
