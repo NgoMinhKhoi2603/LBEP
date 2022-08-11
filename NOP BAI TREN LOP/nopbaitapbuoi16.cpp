@@ -9,9 +9,7 @@ bool ktsonguyento(int a){
 			break;
 		}
 	}
-	if(dem==0)
-	return true;
-	return false;
+	return dem==0;
 } 
 
 int main() {
